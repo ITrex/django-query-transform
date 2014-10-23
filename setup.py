@@ -12,7 +12,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-query-transform',
-    version='0.1',
+    version='0.1.1',
     packages=['django_query_transform', 'django_query_transform.templatetags'],
     include_package_data=True,
     description=locals()['__doc__'],
@@ -31,6 +31,6 @@ setup(
     ],
 
     install_requires=(
-        'Django==1.6.5'
+        'Django>=1.5'
     ),
 )
